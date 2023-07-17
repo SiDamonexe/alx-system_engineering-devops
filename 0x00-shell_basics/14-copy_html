@@ -1,2 +1,2 @@
 #!/bin/bash
-.html
+ [ ! -e "../$file" ] || [ "$file" -nt "../$file" ] && cp "$file" "../"
